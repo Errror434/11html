@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Приклади з вкладеними блоками</title>
+  <style>
+    /* Стилі для зовнішнього блоку */
+    .outer-block {
+      border: 1px solid #000;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+
+    /* Стилі для внутрішнього блоку */
+    .inner-block {
+      border: 1px solid #000;
+      background-color: #d3d3d3;
+      padding: 10px;
+    }
+
+    /* Стилі для тексту в центрі блоку */
+    .centered-text {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>Приклади з вкладеними блоками</h2>
+
+  <!-- Перший приклад: вкладений блок з текстом -->
+  <div class="outer-block">
+    <h3>Перший приклад</h3>
+    <div class="inner-block">
+      <p class="centered-text">Текст в центрі блоку</p>
+    </div>
+  </div>
+
+  <!-- Другий приклад: вкладені блоки з текстом -->
+  <div class="outer-block">
+    <h3>Другий приклад</h3>
+    <div class="inner-block">
+      <div class="inner-block">
+        <p class="centered-text">Текст в центрі блоку</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Третій приклад: вкладений блок з текстом та іншим блоком -->
+  <div class="outer-block">
+    <h3>Третій приклад</h3>
+    <div class="inner-block">
+      <p class="centered-text">Текст в центрі блоку</p>
+      <div class="inner-block">
+        <p class="centered-text">Інший вкладений блок з текстом</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
